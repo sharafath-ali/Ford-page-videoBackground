@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ford Mustang</title>
+        <link rel="icon" href="mus.jpg" type="image/icon type" width="1px">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <section class="showcase">
+         <header>
+            <h2 class="logo">FORD MUSTANG</h2>
+            <div class="toggle">
+                
+            </div>
+         </header>
+         <video width="1200" muted loop autoplay src="vid.mp4"></video>
+        
+         <div class="overlay"></div>
+         <div class="text">
+            
+            <h3>Because we want you to be your true self.</H3>
+            <p>
+                The iconic Ford Mustang needs no introduction. 
+                Now we’ve re-created the legend for you - with a sleek, agile body designed for performance that’s just right for Indian streets. So you unleash your true self. 
+                Feels like family, for a change.
+            </p>
+            <a href="#">Explore</a>
+         </div>
+         <ul class="social">
+            <li><a href="#"><img width="30px" src="u.png"></a></li>
+            <li><a href="#"><img width="30px" src="insta.png"></a></li>
+            <li><a href="#"><img width="30px" src="tw.png"></a></li>
+         </ul>
+        </section>
+        <div class="menu">
+            <ul>
+                <li><a href="#">My Account</a></li>
+                <li><a href="#">Finance</a></li>
+                <li><a href="#">Support & Service</a></li>
+                <li><a href="#">Dealership Locations</a></li>
+            </ul>
+        </div>
+        <script>
+            const menuToggle = document.querySelector('.toggle')
+            const showcase = document.querySelector('.showcase')
+            menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('active')
+                showcase.classList.toggle('active')
+            })
+        </script>
+    </body>
+</html>
